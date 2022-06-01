@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color: red;
 }
 
@@ -9,23 +9,52 @@ form{
     height: 20vh;
     margin: 1rem;
     padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    flex: 1;
+    display: block;
+    margin: auto;
+   
 }
 .form{
     background-color: aqua;
     width: 60vw;
     height: 30vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
+    display: block;
+    margin: auto;
+    
 }
 legend{
     align-self: center;
     margin: auto;
     display: block;
-}
+} */
+
+
+  input[type="text"],
+  select.form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  input[type="text"]:focus,
+  select.form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .hero-image {
+    background-image: url("assets/images/hero.png");
+    height: 500px;
+    width: 100%;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  nav{
+      border-bottom: 2px dotted black;
+      background-color: none;
+      background-image: none;
+  }
+  
