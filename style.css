@@ -53,8 +53,28 @@ legend{
     position: relative;
   }
   nav{
-      border-bottom: 2px dotted black;
-      background-color: none;
+      border-bottom: 1px dotted white;
+      background-color: #1b5557;
       background-image: none;
   }
-  
+  .container-fluid{
+      background-color: #1b5557;
+      padding: 0%;
+      margin: 0%;
+      display: flex;
+      justify-content: center;
+  }
+
+  .shop{
+      height: 40px;
+      width:100px;
+      background-color: #1b5557;
+      border-radius: 30px;
+      color: white;
+      border: 2px solid white;
+      font-size: small;
+    }
+    .navbar-expand-lg {
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
